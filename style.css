@@ -1,0 +1,145 @@
+body {
+  min-width: 950px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* NAV BAR */
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  font-family: arial, sans-serif;
+  padding: 0 20px;
+  padding-top: 10px;
+}
+
+.item {
+  padding-left: 20px;
+  margin: auto 0;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.connecButton {
+  width: 100px;
+  background-color: #078acd;
+  border-style: hidden;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+/* CONTENT */
+
+.logoGoogle {
+  max-width: 320px;
+}
+.content {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+.searchBar {
+  height: 45px;
+  width: 600px;
+  border: 1px solid #E7E7E7;
+  border-radius: 50px;
+  padding-left: 30px;
+}
+
+.searchBar:hover {
+  box-shadow: 1px 1px 3px 1px #D1D1D1
+}
+
+.clic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.TwoButton {
+  border-style: hidden;
+  background-color: #F3F3F3;
+  height: 40px;
+  width: 150px;
+  color: #636363;
+  border-radius: 3px;
+}
+
+.TwoButton:hover {
+  border: 1px solid #D1D1D1;
+}
+
+.chanceclic {
+  margin-left: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-width: 950px;
+}
+
+.country {
+  background-color: #F3F3F3;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  margin-top: 100px;
+  border-top: 2px solid #E7E7E7;
+  border-bottom: 2px solid #E7E7E7;
+  color: #636363;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+}
+
+#France {
+  margin-left: 20px;
+}
+
+.infos {
+  background-color: #F3F3F3;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: auto 30px;
+}
+
+.info2 {
+  margin-right: 20px;
+}
+
+.link2 {
+  text-decoration: none;
+  font-size: 13px;
+  color: #636363;
+  margin-left: 20px;
+}
+
+.link2:hover {
+  text-decoration: underline;
+}
